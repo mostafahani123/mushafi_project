@@ -1,0 +1,66 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'sans-serif'  , 'poppins';
+}
+
+body{
+    width: 100%;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+  
+    background: linear-gradient(to right,#bfe2df , #E2EDEC , #bfe2df ,#E2EDEC);
+   
+
+   
+
+    
+}
+
+.logo{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 280px;
+}
+.home .home-content .text{
+   width: 50%;
+   position: relative;
+   top: 10vh;
+   left: 70px;
+   font-size:50px;
+}
+/* this style logo & Goolge */
+.full_logo_Apple_Google{
+    display: flex;
+    position: relative;
+    top: 30vh;
+    left: 10vh;
+}
+.logo_two_Apple{
+    position: relative;
+    left: 10px;
+    bottom: 110px;
+}
+.logo_two_Apple:hover{
+    transform: scale(1.1);
+    transition: calc(2s);
+   
+}
+.logo_one_google:hover{
+    transform: scale(1.1);
+    transition: calc(2s);
+   
+}
+
+
+.image_logo img{
+    width:400px; height:400px;
+    position: relative;
+    left: 90vh;
+    bottom: 30vh;
+    border-radius: 100%;
+    box-shadow: 5px 5px 21px 5px  rgb(255, 255, 255);
+}
+
